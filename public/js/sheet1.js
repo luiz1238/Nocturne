@@ -89,7 +89,7 @@ $('#diceRoll').on('hidden.bs.modal', ev => {
 
 function resolveSuccessType(num, roll, showBranches) {
     if (showBranches) {
-        if (roll === 20)
+        if (roll === 100)
             return { description: 'Extremo', isSuccess: false };
         if (roll === 1)
             return { description: 'Desastre', isSuccess: false };
