@@ -1,4 +1,4 @@
-const diceRollMax = 100;
+const diceRollMax = 20;
 const diceResultContent = $('#diceResultContent');
 diceResultContent.hide();
 const diceResultDescription = $('#diceResultDescription');
