@@ -1,4 +1,4 @@
-const diceRollMax = 20;
+const diceRollMax = 100;
 const diceResultContent = $('#diceResultContent');
 diceResultContent.hide();
 const diceResultDescription = $('#diceResultDescription');
@@ -99,7 +99,7 @@ function resolveSuccessType(num, roll, showBranches) {
             return { description: 'normal', isSuccess: false };
     }
     if (roll <= num)
-        return { description: 'Sucesso', isSuccess: true };
+        return { description: 'Normal', isSuccess: true };
     if (roll > num)
         return { description: 'Fracasso', isSuccess: false };
 
